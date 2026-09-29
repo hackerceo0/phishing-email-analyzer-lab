@@ -1,0 +1,21 @@
+From: "Amazon Customer Service" <no-reply@amazon.com>
+To: customer@example.com
+Subject: Your Amazon order has shipped
+Date: Tue, 04 Feb 2025 14:22:00 -0500
+Reply-To: no-reply@amazon.com
+Message-ID: <order123456@amazon.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Authentication-Results: mx.example.com; spf=pass; dkim=pass; dmarc=pass
+
+Hello,
+
+Your order #123-4567890-1234567 has shipped!
+
+Track your package: https://www.amazon.com/track/123456
+
+Estimated delivery: February 7, 2025
+
+Thank you for shopping with Amazon.
+
+- Amazon Customer Service

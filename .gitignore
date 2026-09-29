@@ -1,0 +1,32 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Output
+output/*.json
+output/*.html
+
+# Don't commit real emails (may contain sensitive data)
+samples/*.eml
+!samples/suspicious_email.eml
+!samples/legitimate_email.eml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# API keys
+.env
+*.key
+config.local.yaml

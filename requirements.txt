@@ -1,0 +1,9 @@
+# Phishing Email Analyzer Dependencies
+
+# No external dependencies required - uses Python standard library
+# email, re, json, argparse, pathlib are all built-in
+
+# Future enhancements:
+# requests>=2.31.0        # For VirusTotal API integration
+# python-magic>=0.4.27    # For file type detection
+# beautifulsoup4>=4.12.0  # For better HTML parsing

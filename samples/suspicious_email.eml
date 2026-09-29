@@ -1,0 +1,43 @@
+From: "PayPal Security" <security@paypa1-support.xyz>
+To: victim@example.com
+Subject: URGENT: Your PayPal Account Has Been Suspended - Verify Now!
+Date: Tue, 04 Feb 2025 10:30:00 -0500
+Reply-To: verify@random-domain.top
+Message-ID: <fake123456@paypa1-support.xyz>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_12345"
+Authentication-Results: mx.example.com; spf=fail; dkim=fail; dmarc=fail
+
+------=_Part_12345
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body>
+<p>Dear Valued Customer,</p>
+
+<p><b>URGENT: Your account has been locked due to suspicious activity!</b></p>
+
+<p>We have detected unauthorized access to your PayPal account. You must verify your identity immediately to restore access.</p>
+
+<p>Click here to verify your account: <a href="http://192.168.1.100/paypal-verify/login.php">https://www.paypal.com/verify</a></p>
+
+<p>Or visit: http://bit.ly/3xF4k3L1nk</p>
+
+<p>If you do not verify within 24 hours, your account will be permanently suspended.</p>
+
+<p>Thank you,<br>
+PayPal Security Team</p>
+
+<p><small>This is an automated message. Do not reply.</small></p>
+</body>
+</html>
+
+------=_Part_12345
+Content-Type: application/x-msdownload; name="PayPal_Verification_Form.exe"
+Content-Disposition: attachment; filename="PayPal_Verification_Form.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+(truncated fake payload)
+
+------=_Part_12345--
